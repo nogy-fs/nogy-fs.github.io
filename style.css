@@ -78,6 +78,10 @@ span.me {
     text-decoration: underline;
 }
 
+table.figure {
+    float: right;
+}
+
 td.start_year{
     text-align:center;
     width:140px;
@@ -98,6 +102,14 @@ td.description {
     text-align:left;
 }
 
+td.figure {
+    text-align: center;
+}
+
+td.caption {
+    font-size:15px;
+}
+
 section.title {
     font-size: 25px;
     font-style: italic;
@@ -113,3 +125,6 @@ section.special {
     color: red;
 }
 
+section.related_talks {
+    text-decoration: underline;
+}
