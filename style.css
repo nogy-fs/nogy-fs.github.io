@@ -128,3 +128,8 @@ section.special {
 section.related_talks {
     text-decoration: underline;
 }
+
+section.to_right {
+    font-size: 12px;
+    text-align: right;
+}
