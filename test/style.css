@@ -85,6 +85,7 @@ hr {
     margin: 0 auto;
     margin-top: 5px;
     margin-bottom: 5px;
+    padding-left: 20px;
     border-radius: 10px;
     background: #eee;
     transform-origin: center center;
@@ -93,8 +94,8 @@ hr {
     position: relative;
     
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;*/
+    /*align-items: center;*/
     font-size: 16px;
 }
 
@@ -128,3 +129,15 @@ img2 {
     background: #000;
 }
 
+.news-field {
+    padding-left: 30px;
+}
+
+.news-date {
+    font-weight: bold;
+}
+
+.news-field > a:hover {
+    color: #eeeeee;
+    background: #222222;
+}
