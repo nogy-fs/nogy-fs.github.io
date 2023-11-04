@@ -3,7 +3,9 @@
     justify-content: center;
     list-style: none;
     overflow: hidden;
-    background-color: #222222;
+    /*background-color: #222222;*/
+    background-color: #40029c;
+    margin-top: 0;
 }
 
 #nav li {
@@ -23,8 +25,25 @@
     background-color: #ffffff;
 }
 
+.subtitle {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 26pt;
+    font-family: "sans-serif"
+}
+
+.banner-field {
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 100;
+}
+
 .banner {
-    text-align: center;
+    /*text-align: left;*/
+}
+
+.banner-side {
+    /*text-align: right;*/
 }
 
 ul.class {
@@ -32,12 +51,16 @@ ul.class {
 }
 
 header {
-    background-color: #4c6294;
+    /*background-color: #4c6294;*/
 }
 
 footer {
     /*background-color: #4c6294;
     color: #ffffff;*/
+}
+
+img {
+    vertical-align: top;
 }
 
 .address {
