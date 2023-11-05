@@ -1,17 +1,18 @@
+.header-line {
+    background-color: #40029c;
+    font-size: 9pt;
+}
+
 #nav {
-    display: flex;
-    justify-content: center;
+    display: list-item;
     list-style: none;
     overflow: hidden;
-    /*background-color: #222222;*/
-    background-color: #40029c;
-    margin-top: 0;
+    margin-left: 0;
 }
 
 #nav li {
-    width: 140px;
-    text-align: center;
-    float: left;
+    text-align: left;
+    font-size: 14pt;
 }
 
 #nav li a {
@@ -25,11 +26,34 @@
     background-color: #ffffff;
 }
 
+.main-field {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.description-field {
+    margin-left: 10px;
+    width: 100%;
+}
+
+.menu {
+    background-color: #40029c;
+    width:200px;
+}
+
 .subtitle {
     font-style: italic;
     font-weight: bold;
     font-size: 26pt;
     font-family: "sans-serif"
+}
+
+.section {
+    font-size: 20pt;
+    margin-left: 5px;
+    border-left: 10px solid #00cccc;
 }
 
 .banner-field {
@@ -39,7 +63,29 @@
 }
 
 .banner {
+    border-left: 50px solid #40029c;
+    width: 450px;
     /*text-align: left;*/
+}
+
+.heptsukuba {
+    font-size: 45pt;
+    font-family: "Arial";
+    font-weight: 1000;
+    margin-left: 10px;
+}
+
+.banner-line {
+    margin-left: 10px;
+    font-size: 3pt;
+    background-color: #00cccc;
+}
+
+.heptsukuba_jp {
+    margin-left: 10px;
+    text-align: right;
+    margin-top: 0px;
+    font-family: "sans-serif";
 }
 
 .banner-side {
@@ -163,4 +209,18 @@ img2 {
 .news-field > a:hover {
     color: #eeeeee;
     background: #222222;
+}
+
+.member-list {
+    margin-left: 10%;
+    text-align: center;
+}
+
+.member-list-header {
+    background-color: #40029c;
+    color: #ffffff;
+}
+
+.member-list-body {
+    background-color: #dddddd;
 }
